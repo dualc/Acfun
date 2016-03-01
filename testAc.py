@@ -6,9 +6,6 @@ import time
 import logging
 import json
 import os
-import chardet
-import smtplib  
-from email.mime.text import MIMEText  
 
 LOGIN_URL = 'http://passport.acfun.tv/login.aspx'
 SIGN_CARD = 'http://webapi.acfun.tv/record/actions/signin?channel=0&date='
